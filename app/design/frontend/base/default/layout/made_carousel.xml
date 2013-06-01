@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addJs">
+                <script>jquery-1.7.2.min.js</script>
+            </action>
+            <action method="addJs">
+                <script>slides/slides.min.jquery.js</script>
+            </action>
+            <action method="addCss"><stylesheet>css/carousel.css</stylesheet></action>
+        </reference>
+    </default>
+</layout>
